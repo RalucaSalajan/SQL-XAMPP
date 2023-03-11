@@ -1,8 +1,8 @@
-# SQL-XAMPP -> CREATE DATABASES for a toy store ;
+# SQL-XAMPP -> DATABASES for a toy store ;
 
-Create the toy store tables : customers, address, orders, order item and store products.
+## Create the toy store tables : customers, address, orders, order item and store products. ##
 
-Database design -> https://app.dbdesigner.net/
+*Database design -> https://app.dbdesigner.net/*
 
 
 
@@ -137,4 +137,27 @@ INSERT INTO `toy` (`ToyID`, `ToyName`, `ToyPrice`,`ToyDescription`) VALUES
 (6, 'Barbie', 47.5,'Contains a barbie doll');
 
 ![Screenshot 2023-03-11 130512](https://user-images.githubusercontent.com/120104620/224480722-c5a288e2-70f5-4902-8414-fec51d7e0a43.png)
+
+
+## basic sql queries ##
+
+-- list all the toys
+
+SELECT * FROM toy
+
+-- list all toys name that starts with “H”
+
+SELECT * FROM toy WHERE ToyName LIKE 'H%' 
+
+-- add a new toy
+
+INSERT INTO toy VALUES (NULL, 'Barbie', 99,’Barbie doll mermaid’) 
+
+-- update address city to user 1
+
+UPDATE address SET AddressCity = 'Brasov' WHERE AddressID = 1 
+
+-- delete address id 3 from address
+
+DELETE FROM address WHERE AddressID = 3 
 
