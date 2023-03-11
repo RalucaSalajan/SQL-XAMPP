@@ -161,7 +161,7 @@ UPDATE address SET AddressCity = 'Brasov' WHERE AddressID = 1
 
 DELETE FROM address WHERE AddressID = 3 
 
--- use JOIN tabel customers name,surname with tabel addreess and city
+-- use JOIN: tabel customers name,surname with tabel addreess and city
 
 SELECT customers.CustomerName, customers.CustomerSurname, addreess.AddressDetails, addreess.AddressCity 
 
