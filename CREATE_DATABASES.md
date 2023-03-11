@@ -7,8 +7,9 @@ Database design -> https://app.dbdesigner.net/
 
 
 
+![sql](https://user-images.githubusercontent.com/120104620/224480465-132e918f-5ff7-4f3c-9256-f39c16777fda.png)
 
-![sql](https://user-images.githubusercontent.com/120104620/224477805-f584da92-e26b-4b3e-ad06-c00d706394a3.png)
+
 
 
 
